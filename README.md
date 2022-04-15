@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Zoo's Animals
+![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=for-the-badge)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-## Available Scripts
+**Zoo's Animals** is a website that allows users to:
+- See the list of animals.
+- See the detail about a specific animal.
+- Filter animals based on type.
 
-In the project directory, you can run:
+## Screenshot
+![Screenshot from 2022-04-15 13-55-06](https://user-images.githubusercontent.com/88809610/163604813-be5041ca-8c01-41e5-bc81-7e92b64913bc.png)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+ ## Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React, Redux, Bootstrap
+- Technologies used: GitHub, VScode, nodejs, GIT.
 
-### `npm run build`
+## Live Demo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
+To get a local copy up and running follow these simple example steps:
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- A device that support running browser applications.
+- access to internet connection.
+- Git
+- A code editor like VsCode
+- NodeJS
+### Setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### View pages from the browser
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- If you just want to check the webpage/webapp, you have it available on the live demo link.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+#### Install locally the code of the application
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+In order to install a local version of this project and please do the following steps:
+- Install the latest version of any code editor.
+- install the latest version of GIT.
+- open your terminal
+- Go to the [repository](git@github.com:ForHemer/React-Capstone-Project)  and clone it with `git@github.com:ForHemer/React-Capstone-Project.git` .
+- open the repository cloned with `cd React-Capstone-Project`
+- if your code editor is VsCode type `code .`
+- Install npm dependencies with `npm install` or `npm i`
+- To run it type `npm start`
+- To test it type `npm run test`
+- and enjoy!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+👤 **Hemerson Foreste**
 
-### Analyzing the Bundle Size
+- GitHub: [@ForHemer](https://github.com/ForHemer)
+- Twitter: [@HemersonForeste](https://twitter.com/HemersonForeste)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/hemerson-foreste)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🤝 Contributing
 
-### Making a Progressive Web App
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Feel free to check the [issues page](https://github.com/ForHemer/React-Capstone-Project/issues).
 
-### Advanced Configuration
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Give a ⭐️ if you like this project!
 
-### Deployment
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This project is [MIT](./MIT.md) licensed.
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

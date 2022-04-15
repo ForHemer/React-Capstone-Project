@@ -32,7 +32,7 @@ function Animal(props) {
           <Card.Img
             src={image}
             alt={name}
-            style={{ width: '150px', height: '150px' }}
+            style={{ width: '120px', height: '120px' }}
           />
         </li>
         <li className={AnimalCSS.listInfo}>
