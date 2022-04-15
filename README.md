@@ -6,7 +6,7 @@
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 **Zoo's Animals** is a website that allows users to:
-- See the list of animals.
+- See the list of animals from an [API](https://zoo-animal-api.herokuapp.com/).
 - See the detail about a specific animal.
 - Filter animals based on type.
 
