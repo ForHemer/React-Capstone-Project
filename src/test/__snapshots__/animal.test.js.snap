@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Animal Render the Details page, should match to the snapshot 1`] = `
+<div
+  className="animalWidth"
+>
+  <a
+    href="/AnimalDetail/undefined"
+    onClick={[Function]}
+  >
+    <button
+      className="buttonRight"
+      onClick={[Function]}
+      type="button"
+    >
+      DETAIL
+    </button>
+  </a>
+  <ul
+    className="listStyle"
+  >
+    <li
+      style={
+        Object {
+          "paddingBottom": "2rem",
+        }
+      }
+    >
+      <img
+        className="card-img"
+        style={
+          Object {
+            "height": "120px",
+            "width": "120px",
+          }
+        }
+      />
+    </li>
+    <li
+      className="listInfo"
+    >
+      <span>
+        Name :
+      </span>
+      <span />
+    </li>
+    <li
+      className="listInfo"
+    >
+      <span>
+        Type :
+      </span>
+      <span />
+    </li>
+    <li
+      className="listInfo"
+    >
+      <span>
+        Lifespan :
+      </span>
+      <span />
+    </li>
+    <li
+      className="listInfo"
+    >
+      <span>
+        Weight (max) :
+      </span>
+      <span />
+    </li>
+  </ul>
+</div>
+`;

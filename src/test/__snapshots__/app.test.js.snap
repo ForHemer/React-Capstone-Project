@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Renders Correctly 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="background row"
+  >
+    <div
+      className="iconContainer row"
+    >
+      <img
+        alt="Microphone"
+        className="imgIcon"
+        src="microphoneSvgrepo.svg"
+      />
+      <img
+        alt="Setting gear"
+        className="imgIcon"
+        src="settingsGearSvgrepo.svg"
+      />
+    </div>
+    <div
+      className="headerRow row"
+    >
+      <div
+        className="banner col-lg-6 col-md-6 col-sm-6"
+      >
+        <img
+          alt="Panthera"
+          className="card-img logo"
+          src="welcome-zoo.jpg"
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="zooContainer row"
+  >
+    <div
+      className="row"
+    >
+      <input
+        className="input"
+        onChange={[Function]}
+        placeholder="Search by type"
+        type="text"
+      />
+    </div>
+    <div
+      className="zooRow"
+    />
+  </div>
+</div>
+`;
