@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Animal Details Render the Animal Details page, should match to the snapshot 1`] = `
+<div
+  className="detailStyle row"
+>
+  <a
+    className="animalDetailLink"
+    href="/"
+    onClick={[Function]}
+  >
+    <button
+      className="buttonLeft"
+      onClick={[Function]}
+      type="button"
+    >
+      Back
+    </button>
+  </a>
+  <ul
+    className="liste"
+  >
+    <div
+      className="detailStyle list-group-item"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#3b5b98",
+        }
+      }
+    >
+      <img
+        className="card-img"
+        style={
+          Object {
+            "width": "150px",
+          }
+        }
+      />
+    </div>
+    <div
+      className="list-group-item"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#3b5b98",
+          "color": "#fff",
+        }
+      }
+    >
+      <span>
+        Name : 
+      </span>
+      <span />
+    </div>
+    <div
+      className="list-group-item"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#3b5b98",
+          "color": "#fff",
+        }
+      }
+    >
+      <span>
+        Type : 
+      </span>
+      <span />
+    </div>
+    <div
+      className="list-group-item"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#3b5b98",
+          "color": "#fff",
+        }
+      }
+    >
+      <span>
+        Latin Name : 
+      </span>
+      <span />
+    </div>
+    <div
+      className="list-group-item"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#3b5b98",
+          "color": "#fff",
+        }
+      }
+    >
+      <span>
+        Active time : 
+      </span>
+      <span />
+    </div>
+    <div
+      className="list-group-item"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#3b5b98",
+          "color": "#fff",
+        }
+      }
+    >
+      <span>
+        Length (min) : 
+      </span>
+      <span />
+    </div>
+    <div
+      className="list-group-item"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#3b5b98",
+          "color": "#fff",
+        }
+      }
+    >
+      <span>
+        Length (max) : 
+      </span>
+      <span />
+    </div>
+    <div
+      className="list-group-item"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#3b5b98",
+          "color": "#fff",
+        }
+      }
+    >
+      <span>
+        Weight (min) : 
+      </span>
+      <span />
+    </div>
+    <div
+      className="list-group-item"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#3b5b98",
+          "color": "#fff",
+        }
+      }
+    >
+      <span>
+        Weight (max) : 
+      </span>
+      <span />
+    </div>
+    <div
+      className="list-group-item"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#3b5b98",
+          "color": "#fff",
+        }
+      }
+    >
+      <span>
+        Lifespan : 
+      </span>
+      <span />
+    </div>
+    <div
+      className="list-group-item"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#3b5b98",
+          "color": "#fff",
+        }
+      }
+    >
+      <span>
+        Habitat : 
+      </span>
+      <span />
+    </div>
+    <div
+      className="list-group-item"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#3b5b98",
+          "color": "#fff",
+        }
+      }
+    >
+      <span>
+        Diet : 
+      </span>
+      <span />
+    </div>
+    <div
+      className="list-group-item"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#3b5b98",
+          "color": "#fff",
+        }
+      }
+    >
+      <span>
+        Geography : 
+      </span>
+      <span />
+    </div>
+  </ul>
+</div>
+`;

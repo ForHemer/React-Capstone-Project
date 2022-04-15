@@ -1,0 +1,44 @@
+.background {
+  margin-top: 0.5rem;
+  background-color: #5586e3;
+  min-height: 35vh;
+  color: #fff;
+  padding-bottom: 00.5rem;
+}
+
+.headerRow {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.logo {
+  filter: sepia(100%) hue-rotate(190deg) saturate(500%);
+  margin-bottom: 1rem;
+
+  /* width: 50%;
+  height: auto; */
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.imgIcon {
+  width: 3rem;
+  height: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.banner {
+  object-fit: cover;
+}
+
+.titleContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
