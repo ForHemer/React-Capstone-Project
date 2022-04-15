@@ -1,9 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Zoo's Animals
-![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=for-the-badge)
 ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
-![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=for-the-badge)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 **Zoo's Animals** is a website that allows users to:
@@ -12,8 +11,10 @@
 - Filter animals based on type.
 
 ## Screenshot
+![Screenshot from 2022-04-15 13-55-06](https://user-images.githubusercontent.com/88809610/163604813-be5041ca-8c01-41e5-bc81-7e92b64913bc.png)
 
-![Screenshot from 2022-04-01 14-09-45](https://user-images.githubusercontent.com/88809610/161319112-a8f16af5-b1bf-4d17-b321-f04af22eb9b1.png)
+
+
 
  ## Built With
 
