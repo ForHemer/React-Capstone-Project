@@ -20,10 +20,10 @@ function Header() {
         <Col className={HeaderCSS.banner} sm={6} md={6} lg={6}>
           <Card.Img src={banner} style={{ width: '100%' }} className="logo" alt="Panthera" />
         </Col>
-        <Col className={HeaderCSS.titleContent} sm={6} md={6} lg={6}>
+        {/* <Col className={HeaderCSS.titleContent} sm={6} md={6} lg={6}>
           <h1>Zoo</h1>
           <h2>Animals</h2>
-        </Col>
+        </Col> */}
       </Row>
     </Row>
   );
