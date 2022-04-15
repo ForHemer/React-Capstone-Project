@@ -22,6 +22,10 @@
 ## Live Demo
 Click [here](https://forhemer-zoo-animals.netlify.app/) to see the live demo.
 
+## Presentation
+Click [here](https://www.loom.com/share/668e0c1298554118b42fe1059de2449b) to see the live presentation.
+
+
 ## Getting Started
 To get a local copy up and running follow these simple example steps:
 
@@ -67,6 +71,14 @@ In order to install a local version of this project and please do the following 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/ForHemer/React-Capstone-Project/issues).
+
+## Acknowledgments
+
+The ideas and inspiration from this project are coming from the following articles:
+
+- Microverse
+- Original design idea by: [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
+
 
 ## Show your support
 
