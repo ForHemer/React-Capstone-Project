@@ -1,7 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
-
 import { Link } from 'react-router-dom';
-
+import { removeDetail } from '../../redux/zoo/zoo';
 
 function AnimalDetail() {
   const detailAnimal = useSelector((state) => state.zoo);

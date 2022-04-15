@@ -2,7 +2,7 @@
 import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { PropTypes } from 'prop-types';
-
+import { toggleDetail } from '../../redux/zoo/zoo';
 
 function Animal(props) {
   const dispatch = useDispatch();
