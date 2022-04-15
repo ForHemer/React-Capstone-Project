@@ -1,0 +1,33 @@
+.buttonLeft {
+  background: url('../../assets/circledLeft.png') no-repeat;
+  background-size: contain;
+  color: transparent;
+  border-radius: 50%;
+  width: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.animalDetailLink {
+  background-color: #4268af;
+}
+
+.liste {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #4268af;
+  color: #fff;
+  padding-bottom: 1rem;
+}
+
+.listElement {
+  background-color: #4268af;
+  color: #fff;
+}
+
+button {
+  border: none;
+  color: transparent;
+}

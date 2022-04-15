@@ -1,6 +1,10 @@
+import Row from 'react-bootstrap/Row';
+import Card from 'react-bootstrap/Card';
+import ListGroup from 'react-bootstrap/ListGroup';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { removeDetail } from '../../redux/zoo/zoo';
+import AnimalDetailCSS from './details.module.css';
 
 function AnimalDetail() {
   const detailAnimal = useSelector((state) => state.zoo);
@@ -37,87 +41,84 @@ function AnimalDetail() {
   });
 
   return (
-    <div
+    <Row
       id={obj.id}
-      style={{
-        position: 'fixed',
-        top: '0',
-        left: '0',
-        width: '100%',
-        zIndex: '9999',
-      }}
+      className={AnimalDetailCSS.detailStyle}
+
     >
-      <Link to="/">
-        <button type="button" onClick={handleBackClick}>Back</button>
+
+      <Link to="/" className={AnimalDetailCSS.animalDetailLink}>
+        <button type="button" className={AnimalDetailCSS.buttonLeft} onClick={handleBackClick}>Back</button>
       </Link>
-      <ul>
-        <li>
-          <p>
-            <img src={obj.image} alt={obj.name} style={{ width: '150px' }} />
-          </p>
-        </li>
 
-        <li>
-          <p>Name</p>
-          <p>{obj.name}</p>
-        </li>
+      <ul className={AnimalDetailCSS.liste}>
+        <ListGroup.Item style={{ backgroundColor: '#3b5b98' }} className={AnimalDetailCSS.detailStyle}>
 
-        <li>
-          <p>Type</p>
-          <p>{obj.animal_type}</p>
-        </li>
+          <Card.Img src={obj.image} alt={obj.name} style={{ width: '150px' }} />
 
-        <li>
-          <p>Latin Name</p>
-          <p>{obj.latin_name}</p>
-        </li>
+        </ListGroup.Item>
 
-        <li>
-          <p>Active time</p>
-          <p>{obj.active_time}</p>
-        </li>
+        <ListGroup.Item style={{ backgroundColor: '#3b5b98', color: '#fff' }}>
+          <span>Name : </span>
+          <span>{obj.name}</span>
+        </ListGroup.Item>
 
-        <li>
-          <p>Length (min)</p>
-          <p>{obj.length_min}</p>
-        </li>
+        <ListGroup.Item style={{ backgroundColor: '#3b5b98', color: '#fff' }}>
+          <span>Type : </span>
+          <span>{obj.type}</span>
+        </ListGroup.Item>
 
-        <li>
-          <p>Length (max)</p>
-          <p>{obj.length_max}</p>
-        </li>
+        <ListGroup.Item style={{ backgroundColor: '#3b5b98', color: '#fff' }}>
+          <span>Latin Name : </span>
+          <span>{obj.latin_name}</span>
+        </ListGroup.Item>
 
-        <li>
-          <p>Weight (min)</p>
-          <p>{obj.weight_min}</p>
-        </li>
+        <ListGroup.Item style={{ backgroundColor: '#3b5b98', color: '#fff' }}>
+          <span>Active time : </span>
+          <span>{obj.active_time}</span>
+        </ListGroup.Item>
 
-        <li>
-          <p>Weight (max)</p>
-          <p>{obj.weight_max}</p>
-        </li>
+        <ListGroup.Item style={{ backgroundColor: '#3b5b98', color: '#fff' }}>
+          <span>Length (min) : </span>
+          <span>{obj.length_min}</span>
+        </ListGroup.Item>
 
-        <li>
-          <p>Lifespan</p>
-          <p>{obj.lifespan}</p>
-        </li>
+        <ListGroup.Item style={{ backgroundColor: '#3b5b98', color: '#fff' }}>
+          <span>Length (max) : </span>
+          <span>{obj.length_max}</span>
+        </ListGroup.Item>
 
-        <li>
-          <p>Habitat</p>
-          <p>{obj.habitat}</p>
-        </li>
+        <ListGroup.Item style={{ backgroundColor: '#3b5b98', color: '#fff' }}>
+          <span>Weight (min) : </span>
+          <span>{obj.weight_min}</span>
+        </ListGroup.Item>
 
-        <li>
-          <p>diet</p>
-          <p>{obj.diet}</p>
-        </li>
+        <ListGroup.Item style={{ backgroundColor: '#3b5b98', color: '#fff' }}>
+          <span>Weight (max) : </span>
+          <span>{obj.weight_max}</span>
+        </ListGroup.Item>
 
-        <li>
-          <p>Geography</p>
-          <p>{obj.geo_range}</p>
-        </li>
+        <ListGroup.Item style={{ backgroundColor: '#3b5b98', color: '#fff' }}>
+          <span>Lifespan : </span>
+          <span>{obj.lifespan}</span>
+        </ListGroup.Item>
+
+        <ListGroup.Item style={{ backgroundColor: '#3b5b98', color: '#fff' }}>
+          <span>Habitat : </span>
+          <span>{obj.habitat}</span>
+        </ListGroup.Item>
+
+        <ListGroup.Item style={{ backgroundColor: '#3b5b98', color: '#fff' }}>
+          <span>Diet : </span>
+          <span>{obj.diet}</span>
+        </ListGroup.Item>
+
+        <ListGroup.Item style={{ backgroundColor: '#3b5b98', color: '#fff' }}>
+          <span>Geography : </span>
+          <span>{obj.geo_range}</span>
+        </ListGroup.Item>
       </ul>
-    </div>
+    </Row>
   );
 }
 
