@@ -15,8 +15,8 @@
 .logo {
   filter: sepia(100%) hue-rotate(190deg) saturate(500%);
   margin-bottom: 1rem;
-  width: 50%;
-  height: auto;
+  /* width: 50%;
+  height: auto; */
 }
 
 .iconContainer {
