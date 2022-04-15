@@ -14,16 +14,13 @@
 ![Screenshot from 2022-04-15 13-55-06](https://user-images.githubusercontent.com/88809610/163604813-be5041ca-8c01-41e5-bc81-7e92b64913bc.png)
 
 
-
-
  ## Built With
 
 - React, Redux, Bootstrap
 - Technologies used: GitHub, VScode, nodejs, GIT.
 
 ## Live Demo
-
-
+Click [here](https://forhemer-zoo-animals.netlify.app/) to see the live demo.
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps:
