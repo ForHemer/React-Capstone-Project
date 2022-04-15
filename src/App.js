@@ -1,6 +1,6 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
-import Zoo from './components/zoo/zoo';
+import Zoo from './components/animal/zoo';
 import AnimalDetail from './components/animal/details';
 import Header from './components/header/header';
 

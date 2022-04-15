@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux';
 import { useState } from 'react';
-import Animal from '../animal/animal';
+import Animal from './animal';
 
 function Zoo() {
   const zooAnimals = useSelector((state) => state.zoo);
