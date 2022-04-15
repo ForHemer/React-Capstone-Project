@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Zoo's Animals
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=for-the-badge)
+![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-## Available Scripts
+**Zoo's Animals** is a website that allows users to:
+- See the list of animals.
+- See the detail about a specific animal.
+- Filter animals based on type.
 
-In the project directory, you can run:
+## Screenshot
 
-### `npm start`
+![Screenshot from 2022-04-01 14-09-45](https://user-images.githubusercontent.com/88809610/161319112-a8f16af5-b1bf-4d17-b321-f04af22eb9b1.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ ## Built With
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React, Redux, Bootstrap
+- Technologies used: GitHub, VScode, nodejs, GIT.
 
-### `npm test`
+## Live Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
+To get a local copy up and running follow these simple example steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- A device that support running browser applications.
+- access to internet connection.
+- Git
+- A code editor like VsCode
+- NodeJS
+### Setup
 
-### `npm run eject`
+#### View pages from the browser
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- If you just want to check the webpage/webapp, you have it available on the live demo link.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Install locally the code of the application
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+In order to install a local version of this project and please do the following steps:
+- Install the latest version of any code editor.
+- install the latest version of GIT.
+- open your terminal
+- Go to the [repository](git@github.com:ForHemer/React-Capstone-Project)  and clone it with `git@github.com:ForHemer/React-Capstone-Project.git` .
+- open the repository cloned with `cd React-Capstone-Project`
+- if your code editor is VsCode type `code .`
+- Install npm dependencies with `npm install` or `npm i`
+- To run it type `npm start`
+- To test it type `npm run test`
+- and enjoy!
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Author
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+👤 **Hemerson Foreste**
 
-### Code Splitting
+- GitHub: [@ForHemer](https://github.com/ForHemer)
+- Twitter: [@HemersonForeste](https://twitter.com/HemersonForeste)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/hemerson-foreste)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🤝 Contributing
 
-### Analyzing the Bundle Size
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Feel free to check the [issues page](https://github.com/ForHemer/React-Capstone-Project/issues).
 
-### Making a Progressive Web App
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Give a ⭐️ if you like this project!
 
-### Advanced Configuration
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This project is [MIT](./MIT.md) licensed.
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
